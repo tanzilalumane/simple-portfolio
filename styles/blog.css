@@ -123,6 +123,10 @@ header img {
   padding-top: 8px;
 }
 
+.flower-section {
+  margin-top: 28px;
+}
+
 .flower-images {
   display: flex;
   align-items: center;
