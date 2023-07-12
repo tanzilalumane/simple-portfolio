@@ -123,6 +123,26 @@ header img {
   padding-top: 8px;
 }
 
+.flower-images {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+.flower-images button {
+  width: 100%;
+}
+.flower-images p {
+  margin-block: 5px;
+}
+
+.flower-images img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+}
+
 .sale-section {
   display: flex;
   align-items: center;
