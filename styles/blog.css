@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+header {
+  background-color: rgb(248, 218, 223);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 97px;
+  padding-top: 50px;
+}
+
+.container {
+  max-width: 1440px;
+  padding-inline: 48px;
+}
+
+header img {
+  width: 400px;
+}
+.btn-primary {
+  color: white;
+  padding: 12px 20px;
+  border: 0;
+  border-radius: 8px;
+  background: #e55473;
+  margin-bottom: 20px;
+}
+.h-primary {
+  color: #272727;
+  font-family: Lato;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+.p-primary {
+  color: rgba(39, 39, 39, 0.6);
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.feature {
+  padding-block: 80px;
+}
+.section-h {
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 28px;
+  font-weight: 800;
+  margin-bottom: 16px;
+}
+.section-p {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.images {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.img-background {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  height: 350px;
+  width: 300px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+  margin-top: 24px;
+  position: relative;
+}
+
+.img-background p {
+  position: absolute;
+  margin: auto;
+  bottom: -30px;
+  color: #272727;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration-line: underline;
+}
+.img-background img {
+  width: 70%;
+}
+
+.info-section {
+  margin-inline: 48px;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  padding: 30px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.info-section div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.info-section p {
+  padding-top: 8px;
+}
+
+.sale-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  padding-block: 50px;
+  padding-inline: 80px;
+}
+
+.sale-section h1 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.sale-section > div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sale-section button {
+  margin-top: 16px;
+}
+
+.sale-section span {
+  color: #e55473;
+}
+
+.sale-section p {
+  color: rgba(39, 39, 39, 0.6);
+}
+
+.insta-section {
+  padding-block: 60px;
+}
+
+.insta-section-images {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.insta-section-images img {
+  width: 22%;
+}
+
+.email-section {
+  background-image: url("../images/Rectangle\ 9.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-inline: 48px;
+  margin-bottom: 60px;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.email-section div {
+  width: 500px;
+  margin-top: 16px;
+}
+
+.email-section input {
+  border-radius: 8px;
+  background: #fff;
+  border: 0;
+  height: 40px;
+  width: 350px;
+  margin-right: 8px;
+  padding-left: 8px;
+}
+
+.f-d {
+  padding: 100px 50px;
+
+  flex-shrink: 0;
+  background-color: black;
+}
+.f-h {
+  color: #e55473;
+  font-family: Lato;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.f-s {
+  color: white;
+  font-size: 28px;
+}
+
+.f-p {
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+.f-p2 {
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 10px;
+}
